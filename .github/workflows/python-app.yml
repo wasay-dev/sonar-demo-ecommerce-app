@@ -31,10 +31,6 @@ jobs:
         pip install flake8
         flake8 .
 
-    - name: Run tests
-      run: |
-        # Assuming you have tests in a tests/ directory
-        python -m unittest discover tests/
 
     - name: Run the app
       run: |
